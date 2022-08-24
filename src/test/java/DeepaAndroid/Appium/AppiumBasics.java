@@ -17,6 +17,8 @@ public class AppiumBasics extends BaseTest{
 	{
 	
 		driver.findElement(AppiumBy.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ListView/android.widget.TextView[2]")).click();
+		
+		System.out.println("Tested");
 	}
 }
 
